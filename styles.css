@@ -30,6 +30,17 @@ section {
 h1 {
   font-weight: 300;
   font-size: 3.5em;
+  margin: 2em 0 0.2em 0;
+}
+
+.dates {
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.ribbon img {
+  height: 6em;
+  margin: 1em;
 }
 
 .epitaph {
@@ -90,18 +101,13 @@ h1 {
 }
 @media (prefers-color-scheme: dark) {
   html {
-    background: #444;
+    background: black;
   }
   body {
-    background: black;
     color: white;
   }
 }
 @media print {
-  sidebar {
-    background: white;
-    color: black;
-  }
   body {
     background: white;
     color: black;
